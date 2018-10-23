@@ -1,3 +1,12 @@
+# Human Pose Refiner
+![](images/teaser.png)
+
+This is the inference code used in the Human Pose Refiner algorithm introduced in the [HumanPoseRefiner](https://arxiv.org/abs/1804.07909) publication:
+**Mihai Fieraru, Anna Khoreva, Leonid Pishchulin and Bernt Schiele
+Learning to Refine Human Pose Estimation.
+In _The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops_, 2018**
+
+## Install
 The code is tested with python3 and Tensorflow v1.5.
 We recommend using virtualenv to create an environment and install the required packages (including TF) using the associated pip. See official documentation here: https://www.tensorflow.org/install/pip .
 
@@ -10,7 +19,7 @@ pip install -U easydict numpy scipy scikit-image init_weights: /BS/mihai/work/ex
 ```
 
 
-Choose a path where you'd like to clone the code and then set the environment variable `HUMAN_POSE_REFINER` accordingly.
+Choose a path where you'd like to clone the code by setting the environment variable `HUMAN_POSE_REFINER` accordingly.
 ```
 # HUMAN_POSE_REFINER=/path/to/human-pose-refiner
 git clone git@github.com:mihaifieraru/human-pose-refiner.git $HUMAN_POSE_REFINER
@@ -45,7 +54,7 @@ Set path to the posetrack-v2 predictions that you want to refine. This should be
 vim $HUMAN_POSE_REFINER/exp/improve-mota-posetrack-v2/pose_cfg.yaml
 # set the parameter dataset:
 ```
-
+## Run
 Refine predictions such that the MOTA score is improved:
 ```
 # activate the environment containing TF 1.5 and the required packages
