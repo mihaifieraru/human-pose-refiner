@@ -1,0 +1,15 @@
+dataset_type: "posetrack_v2" # can be "posetrack_v1" (2017) or "posetracv_v2" (2018)
+dataset: "path/to/json_predictions/" # path to the posetrack json predictions
+dataset_root: "../../data/posetrack_data_v2/" 
+
+num_joints: 15
+all_joints: [[0, 5], [1, 4], [2, 3], [6, 11], [7, 10], [8, 9], [12], [13], [14]]
+all_joints_names: ['ankle', 'knee', 'hip', 'wrist', 'elbow', 'shoulder', 'chin', 'nose', 'head-top']
+
+
+init_weights: ../../model/snapshot-515000 # path to model used for refinement
+net_type: resnet_101
+
+joint_thresh_refine: 0.0 # remove joints with scores less than this threshold (best 0.7 for improving the MOTA score and 0.0 for improving the MAP score)
+
+runtime_flip: true

@@ -1,0 +1,4 @@
+model/*
+__pycache__
+*/__pycache__
+exp/*/json_pred
