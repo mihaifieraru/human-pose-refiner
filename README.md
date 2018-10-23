@@ -9,6 +9,9 @@ This is the inference code used in the Human Pose Refiner algorithm introduced i
 Learning to Refine Human Pose Estimation - 
 In _The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops_, 2018**
 
+The algorithm takes as input **an image** and **an estimated pose** and refines the positions of the joints (outputs **a more precise 2d pose**).  
+We provide code to run the algorithm on predictions on the **PoseTrack** dataset. The refinement algorithm is applied per one pose at a time, independent of the other pose predictions in the image/video.
+
 ## Install
 The code is tested with python3 and Tensorflow v1.5.
 We recommend using virtualenv to create an environment and install the required packages (including TF) using the associated pip. See official documentation here: https://www.tensorflow.org/install/pip .
