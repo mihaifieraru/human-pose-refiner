@@ -1,5 +1,5 @@
 The code is tested with python3 and Tensorflow v1.5.
-We recommend using virtualenv to create an environment and install the rest of the packages (including TF) using the associated pip. Official documentation https://www.tensorflow.org/install/pip .
+We recommend using virtualenv to create an environment and install the rest of the packages (including TF) using the associated pip. See official documentation here: https://www.tensorflow.org/install/pip .
 ```
 pip install -U https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.5.0-cp35-cp35m-linux_x86_64.whl
 pip install -U easydict numpy scipy scikit-image init_weights: /BS/mihai/work/experiments/ddpose_track_train/exp20cc/snapshot-515000
