@@ -1,5 +1,5 @@
 # Human Pose Refiner
-![](images/teaser.png)
+![](images/PoseRefinerTeaser.png)
 
 This is the inference code used in the Human Pose Refiner algorithm introduced in the [HumanPoseRefiner](https://arxiv.org/abs/1804.07909) publication:
 **Mihai Fieraru, Anna Khoreva, Leonid Pishchulin and Bernt Schiele
