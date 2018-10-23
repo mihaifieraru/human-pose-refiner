@@ -1,9 +1,12 @@
 # Human Pose Refiner
-![](images/PoseRefinerTeaser.png)
+<p align="center">
+<img src="images/PoseRefinerTeaser.png" width="600">
+</p>
 
 This is the inference code used in the Human Pose Refiner algorithm introduced in the [HumanPoseRefiner](https://arxiv.org/abs/1804.07909) publication:
-**Mihai Fieraru, Anna Khoreva, Leonid Pishchulin and Bernt Schiele
-Learning to Refine Human Pose Estimation.
+
+**Mihai Fieraru, Anna Khoreva, Leonid Pishchulin and Bernt Schiele - 
+Learning to Refine Human Pose Estimation - 
 In _The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops_, 2018**
 
 ## Install
